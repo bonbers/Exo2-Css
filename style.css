@@ -1,17 +1,44 @@
-/*#header {
-position:relative;
-height: 400px;
-filter: brightness(60%);
+body {
+  margin: auto;
+  width: 100%;
 }
-#header_texte {
-  text-align: center;
-  font-family: "Helvetic";
-  font-size : 14px;
-  position:absolute;
+
+header {
+overflow: hidden;
+height: 800px;
+}
+
+#group1-a {
+ margin-left: 20%;
+ position: absolute;
+ top : 5%;
+ color: white;
+}
+
+.head {
+position:relative;
+filter: brightness(60%);
+width: 100%;
+}
+
+#button1 {
+  color : white;
+  background: orange;
+}
+
+#nav {
+  margin-left: 20%;
+  position: absolute;
+  top : 5%;
+  right : 20%;
   color: white;
-  top:360px;
-  width:600px;
-  left: 600px;
-  height:400px;
-  font-size: 200%;
-}*/
+}
+
+#text1 {
+  font-family: "Helvetic";
+  font-size: 70px;
+  margin-left: 20%;
+  position: absolute;
+  top : 30%;
+  color: white;
+}
