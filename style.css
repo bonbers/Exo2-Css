@@ -1,1 +1,17 @@
-
+#header {
+position:relative;
+height: 400px;
+filter: brightness(60%);
+}
+#header_texte {
+  text-align: center;
+  font-family: "Helvetic";
+  font-size : 14px;
+  position:absolute;
+  color: white;
+  top:360px;
+  width:600px;
+  left: 600px;
+  height:400px;
+  font-size: 200%;
+}
