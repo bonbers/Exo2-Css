@@ -8,37 +8,83 @@ overflow: hidden;
 height: 800px;
 }
 
+/*LOGO HEADER*/
 #group1-a {
+ background-image: url(./img/logo.png);
+ background-size: 50%;
+ background-repeat: no-repeat;
  margin-left: 20%;
  position: absolute;
  top : 5%;
- color: white;
+ width: 15%;
+ height: 15%;
 }
 
+
+/*IMAGE FOND HEADER*/
 .head {
 position:relative;
-filter: brightness(60%);
+filter: brightness(50%);
 width: 100%;
 }
 
+/*BOUTTON HEADER */
 #button1 {
+  margin-top: 3.5vw;
   color : white;
-  background: orange;
+  background: #f47e36;
+  border: none;
+  border-radius: 3px;
+  width: 20%;
+  padding: 2%;
+  font-size: 0.8vw;
 }
 
+/*BARRE NAVIGUATION HEADER*/
 #nav {
   margin-left: 20%;
   position: absolute;
-  top : 5%;
+  top : 7%;
   right : 20%;
   color: white;
 }
 
+/*TEXTE HEADER*/
 #text1 {
-  font-family: "Helvetic";
-  font-size: 4vw;
   margin-left: 20%;
+  top: 20%;
   position: absolute;
-  top : 30%;
+}
+
+#text1 h1 {
+  font-family: "Helvetic";
+  font-size: 3.2vw;
   color: white;
+}
+
+#text1 h3 {
+  margin-top: 5.5vw;
+  font-family: "Helvetic";
+  font-size: 1.5vw;
+  color: white;
+
+}
+
+/*MENU NAV HEADER*/
+.menu1 {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.menu1 li {
+  display: inline;
+  padding: 1.3em;
+}
+
+/*LIEN MENU NAVIGUATION HEADER*/
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8vw;
 }
